@@ -1,0 +1,19 @@
+{
+  "v": 4,
+  "createdOnFiles": {"v": 1, "at": "2026-09-28T21:55:00Z"},
+  "title": "From Chatbots to Agents",
+  "order": ["cover", "evolution", "chatbot", "textout", "augmented", "loop", "reason-act", "environment", "stack", "phases", "practice", "safety", "summary"],
+  "cover": "cover",
+  "sections": {
+    "s1": {"description": "Opening and the four-stage map of the evolution", "start": "cover"},
+    "s2": {"description": "Chatbots and augmented LLMs: a model that produces outputs", "start": "chatbot"},
+    "s3": {"description": "The agentic loop: acting, observing and iterating", "start": "loop"},
+    "s4": {"description": "AI coding agents: the loop running inside a repository", "start": "environment"},
+    "s5": {"description": "Summary: the same model with more around it", "start": "summary"}
+  },
+  "faces": {
+    "geist": {"family": "Geist", "href": "https://fonts.googleapis.com/css2?family=Geist:wght@300..700&display=swap"},
+    "geist-mono": {"family": "Geist Mono", "href": "https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400..600&display=swap"}
+  },
+  "designSystems": []
+}

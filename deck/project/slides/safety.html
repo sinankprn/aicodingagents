@@ -1,0 +1,31 @@
+<section id="safety" data-transition="fade" style="background:#eceef2; color:#0b0d12; font-family:'Geist', Arial, sans-serif; padding:128px">
+<p style="position:absolute; left:128px; top:56px; width:900px; font-family:'Geist Mono', monospace; font-size:24px; letter-spacing:3px; text-transform:uppercase; color:#5e6475">From chatbots to agents</p>
+<p style="position:absolute; left:1392px; top:56px; width:400px; font-family:'Geist Mono', monospace; font-size:24px; letter-spacing:3px; text-align:right; color:#5e6475">12 / 13</p>
+<div style="position:absolute; left:128px; top:128px; width:1300px; display:flex; flex-direction:column; gap:16px">
+<p style="font-family:'Geist Mono', monospace; font-size:24px; letter-spacing:4px; text-transform:uppercase; color:#0b6f7a">Guardrails</p>
+<h2 style="font-size:64px; font-weight:500; letter-spacing:-2px; line-height:1.1; color:#0b0d12">Checkpoints and permissions</h2>
+<p style="font-size:32px; line-height:1.4; color:#4a5060">Checkpoints undo file changes. Permissions decide what runs without asking.</p>
+</div>
+<div style="position:absolute; left:128px; top:420px; width:760px; display:flex; flex-direction:column; gap:28px">
+<p style="font-family:'Geist Mono', monospace; font-size:24px; letter-spacing:4px; text-transform:uppercase; color:#5e6475; border-bottom:1px solid #c9cdd6; padding:0px 0px 16px 0px">Checkpoints</p>
+</div>
+<svg aria-label="A timeline of file snapshots before each edit, with a rewind arc back to an earlier snapshot" width="760" height="170" viewBox="0 0 760 170" style="position:absolute; left:128px; top:500px; width:760px; height:170px"><path d="M20 120 H740" stroke="#0b0d12" stroke-opacity="0.25" stroke-width="2"/><g fill="#eceef2" stroke="#2f5bd8" stroke-width="2.5"><circle cx="80" cy="120" r="11"/><circle cx="260" cy="120" r="11"/><circle cx="440" cy="120" r="11"/></g><circle cx="620" cy="120" r="11" fill="#2f5bd8"/><path d="M612 104 C560 20 330 20 272 100" fill="none" stroke="#b86a12" stroke-width="2.5" stroke-dasharray="8 7"/><path d="M262 88 L272 104 L284 90" fill="none" stroke="#b86a12" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+<p style="position:absolute; left:128px; top:648px; width:160px; font-family:'Geist Mono', monospace; font-size:24px; text-align:center; color:#5e6475">edit 1</p>
+<p style="position:absolute; left:308px; top:648px; width:160px; font-family:'Geist Mono', monospace; font-size:24px; text-align:center; color:#5e6475">edit 2</p>
+<p style="position:absolute; left:488px; top:648px; width:160px; font-family:'Geist Mono', monospace; font-size:24px; text-align:center; color:#5e6475">edit 3</p>
+<p style="position:absolute; left:668px; top:648px; width:160px; font-family:'Geist Mono', monospace; font-size:24px; text-align:center; color:#2f5bd8">now</p>
+<div style="position:absolute; left:128px; top:724px; width:760px; display:flex; align-items:center; gap:12px">
+<p style="font-family:'Geist Mono', monospace; font-size:24px; line-height:1; padding:10px 16px; color:#0b0d12; background:#ffffff; border:1px solid #c9cdd6; border-bottom:3px solid #b3b8c4; border-radius:8px">Esc</p>
+<p style="font-family:'Geist Mono', monospace; font-size:24px; line-height:1; padding:10px 16px; color:#0b0d12; background:#ffffff; border:1px solid #c9cdd6; border-bottom:3px solid #b3b8c4; border-radius:8px">Esc</p>
+<p style="font-family:'Geist Mono', monospace; font-size:24px; color:#b86a12">rewind</p>
+</div>
+<p style="position:absolute; left:128px; top:808px; width:720px; font-size:24px; line-height:1.45; color:#4a5060">Claude snapshots a file before editing it. Remote actions such as deployments cannot be rewound.</p>
+<div style="position:absolute; left:1000px; top:420px; width:792px; display:flex; flex-direction:column">
+<p style="font-family:'Geist Mono', monospace; font-size:24px; letter-spacing:4px; text-transform:uppercase; color:#5e6475; border-bottom:1px solid #c9cdd6; padding:0px 0px 16px 0px">Permission modes</p>
+<div style="display:flex; align-items:center; gap:24px; padding:22px 0px; border-bottom:1px solid #d5d8df"><p style="width:240px; font-size:32px; font-weight:500; color:#0b0d12">Manual</p><p style="flex:1; font-size:24px; line-height:1.35; color:#4a5060">Asks before file edits and shell commands</p></div>
+<div style="display:flex; align-items:center; gap:24px; padding:22px 0px; border-bottom:1px solid #d5d8df"><p style="width:240px; font-size:32px; font-weight:500; color:#0b0d12">Accept edits</p><p style="flex:1; font-size:24px; line-height:1.35; color:#4a5060">Edits files freely, asks for other commands</p></div>
+<div style="display:flex; align-items:center; gap:24px; padding:22px 0px; border-bottom:1px solid #d5d8df"><p style="width:240px; font-size:32px; font-weight:500; color:#0b0d12">Plan</p><p style="flex:1; font-size:24px; line-height:1.35; color:#4a5060">Explores and proposes, no source edits</p></div>
+<div style="display:flex; align-items:center; gap:24px; padding:22px 0px; border-bottom:1px solid #d5d8df"><p style="width:240px; font-size:32px; font-weight:500; color:#0b0d12">Auto</p><p style="flex:1; font-size:24px; line-height:1.35; color:#4a5060">A classifier blocks risky actions</p></div>
+<p style="font-family:'Geist Mono', monospace; font-size:24px; color:#0b6f7a; padding:22px 0px 0px 0px">Shift+Tab cycles modes</p>
+</div>
+</section>
