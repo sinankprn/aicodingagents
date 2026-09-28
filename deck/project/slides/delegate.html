@@ -1,0 +1,27 @@
+<section id="delegate" data-transition="fade" style="background:radial-gradient(ellipse at 20% 30%, #15214a 0%, #0a0d18 60%), #0a0d18; color:#eceef3; font-family:'Geist', Arial, sans-serif; padding:128px">
+<p style="position:absolute; left:128px; top:56px; width:900px; font-family:'Geist Mono', monospace; font-size:24px; letter-spacing:3px; text-transform:uppercase; color:#7b8296">AI coding tools</p>
+<p style="position:absolute; left:1392px; top:56px; width:400px; font-family:'Geist Mono', monospace; font-size:24px; letter-spacing:3px; text-align:right; color:#7b8296">12 / 13</p>
+<p style="position:absolute; left:128px; top:176px; width:800px; font-family:'Geist Mono', monospace; font-size:24px; letter-spacing:4px; text-transform:uppercase; color:#3ee0f0">Working with it</p>
+<h1 style="position:absolute; left:128px; top:220px; width:900px; font-size:120px; font-weight:600; letter-spacing:-5px; line-height:1.02; color:#eceef3">Delegate,<br><span style="color:#8b91a3">don’t dictate.</span></h1>
+<p style="position:absolute; left:128px; top:500px; width:820px; font-size:32px; line-height:1.4; color:#aab1c4">Give context and direction, then let Claude work out which files to read and which commands to run.</p>
+<div style="position:absolute; left:1040px; top:200px; width:752px; display:flex; flex-direction:column; gap:16px; padding:32px 36px; background:#0b0d13; border:1px solid #2a3040; border-radius:22px; box-shadow:0 24px 80px rgba(0,0,0,0.4)">
+<p style="font-family:'Geist Mono', monospace; font-size:24px; letter-spacing:3px; text-transform:uppercase; color:#737a8c">Prompt</p>
+<p style="font-size:32px; line-height:1.45; color:#eceef3">The checkout flow is broken for users with expired cards. The relevant code is in <span style="color:#a48bff">src/payments/</span>. Can you investigate and fix it?</p>
+</div>
+<hr style="position:absolute; left:128px; top:636px; width:1664px; height:1px; border-top:1px solid #262d45">
+<div style="position:absolute; left:128px; top:676px; width:512px; display:flex; flex-direction:column; gap:16px">
+<p style="font-family:'Geist Mono', monospace; font-size:24px; letter-spacing:3px; text-transform:uppercase; color:#737a8c">Interrupt</p>
+<div style="display:flex; align-items:center; gap:16px"><p style="font-family:'Geist Mono', monospace; font-size:24px; line-height:1; padding:10px 16px; color:#eceef3; background:#161b2b; border:1px solid #34508f; border-bottom:3px solid #34508f; border-radius:8px">Esc</p><p style="font-size:24px; color:#aab1c4">stops Claude immediately</p></div>
+<p style="font-size:24px; line-height:1.4; color:#7b8296">The running tool call is cancelled and Claude waits for you.</p>
+</div>
+<div style="position:absolute; left:704px; top:676px; width:512px; display:flex; flex-direction:column; gap:16px">
+<p style="font-family:'Geist Mono', monospace; font-size:24px; letter-spacing:3px; text-transform:uppercase; color:#737a8c">Steer</p>
+<div style="display:flex; align-items:center; gap:16px"><p style="font-family:'Geist Mono', monospace; font-size:24px; line-height:1; padding:10px 16px; color:#eceef3; background:#161b2b; border:1px solid #34508f; border-bottom:3px solid #34508f; border-radius:8px">Enter</p><p style="font-size:24px; color:#aab1c4">queues a correction</p></div>
+<p style="font-size:24px; line-height:1.4; color:#7b8296">Claude reads it once the current tool calls finish.</p>
+</div>
+<div style="position:absolute; left:1280px; top:676px; width:512px; display:flex; flex-direction:column; gap:16px">
+<p style="font-family:'Geist Mono', monospace; font-size:24px; letter-spacing:3px; text-transform:uppercase; color:#737a8c">Iterate</p>
+<div style="display:flex; align-items:center; gap:16px"><p style="font-family:'Geist Mono', monospace; font-size:24px; line-height:1; padding:10px 16px; color:#eceef3; background:#161b2b; border:1px solid #34508f; border-bottom:3px solid #34508f; border-radius:8px">/init</p><p style="font-size:24px; color:#aab1c4">starts a CLAUDE.md</p></div>
+<p style="font-size:24px; line-height:1.4; color:#7b8296">No perfect prompt needed. When the first attempt misses, refine it.</p>
+</div>
+</section>
