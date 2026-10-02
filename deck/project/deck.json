@@ -1,14 +1,14 @@
 {
   "v": 4,
   "createdOnFiles": {"v": 1, "at": "2026-09-28T21:55:00Z"},
-  "title": "AI Coding Tools: How They Work",
-  "order": ["cover", "about", "reason-act", "phases", "tools", "practice", "environment", "stack", "context", "where", "safety", "delegate", "thanks"],
+  "title": "Always-On Agents",
+  "order": ["cover", "shift", "openclaw", "market", "what", "benefits", "sport", "governance", "thanks"],
   "cover": "cover",
   "sections": {
-    "s1": {"description": "Title and speaker introduction", "start": "cover"},
-    "s2": {"description": "The agentic loop: models that reason and tools that act", "start": "reason-act"},
-    "s3": {"description": "What Claude can access and the harness around the model", "start": "environment"},
-    "s4": {"description": "Context, environments, safety and working effectively", "start": "context"},
+    "s1": {"description": "Title and speaker", "start": "cover"},
+    "s2": {"description": "From text-only LLMs to agents, and the products that made them always on", "start": "shift"},
+    "s3": {"description": "What always-on agents are, what they offer and what they can do in sport", "start": "what"},
+    "s4": {"description": "Data governance for personal and enterprise accounts", "start": "governance"},
     "s5": {"description": "Thanks and links", "start": "thanks"}
   },
   "faces": {
